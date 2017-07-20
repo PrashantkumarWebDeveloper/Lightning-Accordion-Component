@@ -1,0 +1,47 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="body" type="Aura.Component[]" />
+    <aura:attribute name="header" type="Aura.Component[]" /> 
+    <aura:attribute name="show" type="Boolean" default="false" />
+    <aura:attribute name="accordionIndex" type="Integer" />
+    <aura:attribute name="height" type="String" />
+    <aura:attribute name="parentId" type="String" />
+    <aura:attribute name="headerClass" type="String" default="" />
+    <aura:attribute name="bodyClass" type="String" default="" />
+    <aura:attribute name="iconWrapClass" type="String" default="" />
+    <aura:attribute name="openIconName" type="String" />
+    <aura:attribute name="closeIconName" type="String" />
+    <aura:attribute name="iconSize" type="String" />
+    <aura:attribute name="class" type="String" default="" />
+    <aura:handler name="render" value="{!this}" action="{!c.onRender}"/>
+    
+    <div class="{!v.class}">
+        <div class="{!'accn '+ v.parentId + v.accordionIndex + ' ' + (v.show == true? 'active':'')}">
+            
+            
+            <div class="accn-head" onclick="{!c.toggle}">
+                <div class="{!v.headerClass}">
+                    {!v.header}
+                    <span class="{!v.iconWrapClass}" >
+                        <aura:if isTrue="{!v.show}">
+                            <lightning:icon iconName="{!v.openIconName}" size="{!v.iconSize}"/>
+                        </aura:if>
+                        <aura:if isTrue="{!!v.show}">
+                            <lightning:icon iconName="{!v.closeIconName}" size="{!v.iconSize}"/>
+                        </aura:if>
+                        
+                    </span>
+                </div>
+            </div>
+            <div class="accn-body"  id="{!v.parentId + v.accordionIndex}">
+                <div class="{!v.bodyClass}">
+                    {!v.body}
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        {!'.' + v.parentId + v.accordionIndex}.active .accn-body{
+        max-height: {!v.height};
+        }
+    </style>
+</aura:component>

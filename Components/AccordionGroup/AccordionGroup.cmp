@@ -1,0 +1,19 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="body" type="Aura.Component[]" />
+    <aura:attribute name="groupId" type="String" />
+    <aura:attribute name="activeIndex" type="Integer" default="0" />
+    <aura:attribute name="class" type="String" default="" />
+    
+    <aura:attribute name="openIconName" type="String" default="utility:dash" />
+    <aura:attribute name="closeIconName" type="String" default="utility:add" />
+    <aura:attribute name="iconSize" type="String" default="x-small" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInIt}" />
+    <aura:handler event="c:AccordionEvent" action="{!c.handleToggle}" />
+    
+    <div class="{!v.class}">
+        {!v.body}
+    </div>
+    
+    
+</aura:component>
