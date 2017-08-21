@@ -35,9 +35,8 @@ Check out the demo here: [Demo](https://prashantmeandev-developer-edition.ap2.fo
 **You are done!**
 
 ***
-## Available Options:
+## Available Options(Accordion Component):
 
-### Accordion Component: ###
 ### Name: body ### 
  **Type:** Aura.Component[]
 
@@ -77,7 +76,7 @@ Check out the demo here: [Demo](https://prashantmeandev-developer-edition.ap2.fo
 
  **Description:** This class is will be applied to header icon(open and close) container.
 
-### AccordionGroup Component: ###
+## Available Options(AccordionGroup Component):
 
 ### Name: activeIndex ### 
  **Type:** Integer
