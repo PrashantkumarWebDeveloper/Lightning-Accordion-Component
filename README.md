@@ -9,6 +9,7 @@ Check out the demo here: [Demo](https://prashantmeandev-developer-edition.ap2.fo
 2. Use it in your component or app as below:
 ```html
 <c:AccordionGroup >
+
      <c:Accordion >
          <aura:set attribute="header">
               Header1
@@ -17,6 +18,7 @@ Check out the demo here: [Demo](https://prashantmeandev-developer-edition.ap2.fo
                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
          </aura:set>
      </c:Accordion>
+     
      <c:Accordion >
          <aura:set attribute="header">
                Header2
