@@ -1,6 +1,6 @@
 # Lightning-Accordion-Component
 
-Check out the demo here: [Demo](https://prashantmeandev-developer-edition.ap2.force.com/#accordion)
+Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.force.com/#accordion)
 
 ### How to create it?
 
