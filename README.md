@@ -2,6 +2,11 @@
 
 Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.force.com/#accordion)
 
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 ### How to create it?
 
 **It requires two steps:**
