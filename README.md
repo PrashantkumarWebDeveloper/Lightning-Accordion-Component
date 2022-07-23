@@ -87,7 +87,7 @@ Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.for
 
  **Description:** This is the index of default open accordion. 
 
-### containerClass ### 
+### class ### 
  **Type:** String
 
  **Required:** No
