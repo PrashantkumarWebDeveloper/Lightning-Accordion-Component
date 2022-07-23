@@ -37,7 +37,7 @@ Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.for
 ***
 ## Available Options(Accordion Component):
 
-### Name: body ### 
+### body ### 
  **Type:** Aura.Component[]
 
  **Required:** Yes
@@ -46,7 +46,7 @@ Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.for
 
  **Description:** This will be your body for accordion. You can add your html or text here. 
 
-### Name: header ### 
+### header ### 
  **Type:** Aura.Component[]
 
  **Required:** Yes
@@ -55,30 +55,30 @@ Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.for
 
  **Description:** This will be your header(or panel heading) for accordion. You can add your html or text here. 
 
-### Name: headerClass ### 
+### headerClass ### 
  **Type:** String
 
  **Required:** No
 
  **Description:** This class will be applied to the header section of accordion.
 
-### Name: class ### 
+### class ### 
  **Type:** String
 
  **Required:** No
 
  **Description:** This class is will be applied to accordion container.
 
-### Name: iconWrapClass ### 
+### iconWrapClass ### 
  **Type:** String
 
  **Required:** No
 
- **Description:** This class is will be applied to header icon(open and close) container.
+ **Description:** This class will be applied to header icon(open and close) container.
 
 ## Available Options(AccordionGroup Component):
 
-### Name: activeIndex ### 
+### activeIndex ### 
  **Type:** Integer
 
  **Required:** No
@@ -87,14 +87,14 @@ Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.for
 
  **Description:** This is the index of default open accordion. 
 
-### Name: class ### 
+### class ### 
  **Type:** String
 
  **Required:** No
 
  **Description:** This will be applied to the container of accordion group. 
 
-### Name: openIconName ### 
+### openIconName ### 
  **Type:** String
 
  **Required:** No
@@ -105,7 +105,7 @@ Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.for
 
  **Description:** This icon will be shown when accordion is open. 
 
-### Name: closeIconName ### 
+### closeIconName ### 
  **Type:** String
 
  **Required:** No
@@ -116,7 +116,7 @@ Check out the demo here: [Demo](http://prashantmeandev-developer-edition.ap7.for
 
  **Description:** This icon will be shown when accordion is close. 
 
-### Name: iconSize ### 
+### iconSize ### 
  **Type:** String
 
  **Required:** No
