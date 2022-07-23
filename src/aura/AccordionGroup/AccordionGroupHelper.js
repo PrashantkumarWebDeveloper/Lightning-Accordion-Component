@@ -4,7 +4,6 @@
         var openIconName = component.get('v.openIconName');
         var closeIconName = component.get('v.closeIconName');
         var iconSize = component.get('v.iconSize');
-        
         for(var x = 0; x < body.length; x++)
         {
             body[x].set('v.iconSize', iconSize);
